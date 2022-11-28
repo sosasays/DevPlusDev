@@ -83,7 +83,7 @@ export default function VideoCall(props) {
      {/* // Use the MaterialUI grid layout to display. */}
     <Grid container direction="column" style={{ height: "75%"}}>
       {/* Render the controls on screen. */}
-      <Grid item style={{ height: "6%"}}>
+      <Grid item style={{ height: "8%"}}>
          {/* We should only show controls for our video if our video is enabled and permissions are completed successfully. */}
         {ready && tracks && (
           <Controls tracks={tracks} setStart={setStart} setInCall={setInCall}/>

@@ -7,10 +7,10 @@ function App() {
   const [inCall, setInCall] = useState(false);
 
   return (
-    <div className="App" style={{ height: "100%" }}>
+    <div className="App" style={{ height: "100vh" }}>
         {/* A button to enter the video call room. */}
       {inCall ? (
-        <VideoCall setInCall={setInCall} />
+        <VideoCall setInCall={setInCall}/>
       ) : (
         <Button
           variant="contained"
