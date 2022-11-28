@@ -37,7 +37,7 @@ class LoginPage extends Component {
         <div className="loginForm">
         <img src="../images/logo.png" style={{maxHeight: "200px"}}/>
         <button className="login"><Link to = '/mainpage'>Login Fake</Link></button>
-        <form className="formContainer" onSubmit={(e)=>this.handleSubmit(e)}>
+        /<form className="formContainer" onSubmit={(e)=>this.handleSubmit(e)}>
          <input className="loginInput" type="text" name="email" value={this.email} placeholder="Email" onChange= {(event) => this.updateEmail(event)}/>
           <br/><input className="loginInput" type="password" name="password" value= {this.password} placeholder="Password" onChange= {(event) => this.updatePassword(event)}/>
           <br/><input className="loginBtn" type="submit" value="Login" />
